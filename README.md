@@ -1,4 +1,4 @@
-# Login and Sign-Up Pages using react
+# User-Login and Sign-Up Pages using react
 
 This repository contains the **Login** and **Sign-Up** pages for the **Perfumey** website, built with **React**. These pages allow users to either log in to their account or sign up to create a new one. Both pages include form validation and responsive design.
 
