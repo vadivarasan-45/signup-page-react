@@ -32,4 +32,4 @@ You can see the live demo of this project at https://signup-page-react-lake.verc
 
 1. **Download or clone this repository**:
    ```bash
-   git clone https://githu
+   git clone https://github.com/vadivarasan-45/signup-page-react.git
