@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Login and Sign-Up Pages using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the **Login** and **Sign-Up** pages for the **Perfumey** website, built with **React**. These pages allow users to either log in to their account or sign up to create a new one. Both pages include form validation and responsive design.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. **Login Page**
+- **Username and Password Fields**: Users can log in with their username and password.
+- **Validation**: Basic validation ensures that both fields are not empty.
+- **State Management**: Uses React `useState` to handle input fields and form submission.
+- **Submit Action**: On successful login, the form can trigger a function to authenticate the user (e.g., making an API request).
+- **Responsive Design**: Ensures accessibility across devices.
 
-### `npm start`
+### 2. **Sign-Up Page**
+- **Username, Email, and Password Fields**: New users can enter their details (username, email, password, confirm password) to create an account.
+- **Validation**: Ensures all fields are filled out correctly, including confirming the password.
+- **State Management**: Uses React `useState` for managing form data and form submission.
+- **Submit Action**: On form submission, the user details can be sent to an API for account creation.
+- **Responsive Design**: Fully responsive to ensure it works on all devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: For building the user interface and handling the form submission.
+- **CSS**: For styling the page and making it responsive.
+- **JavaScript**: For handling form input and validation logic.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can see the live demo of this project at https://signup-page-react-lake.vercel.app/
 
-### `npm run build`
+## How to View
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Download or clone this repository**:
+   ```bash
+   git clone https://githu
