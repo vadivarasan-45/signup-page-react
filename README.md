@@ -21,7 +21,7 @@ This repository contains the **Login** and **Sign-Up** pages for the **Perfumey*
 ## Technologies Used
 
 - **React**: For building the user interface and handling the form submission.
-- **CSS**: For styling the page and making it responsive.
+- **TailwindCSS**: For styling the page and making it responsive.
 - **JavaScript**: For handling form input and validation logic.
 
 ## Demo
